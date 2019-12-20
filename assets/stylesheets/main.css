@@ -1,0 +1,60 @@
+/*
+========
+TAGS
+========
+*/
+nav .flexbox-container{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav li {
+    max-width: 200px;
+}
+
+header {
+    text-align: center;
+}
+
+.flexbox-container main {
+    flex: 4;
+}
+
+.flexbox-container section {
+    flex: 2;
+}
+
+.flexbox-container footer {
+    flex-basis: 100vw;
+}
+
+/*
+========
+CLASSES
+========
+*/
+.flexbox-container {
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.flexbox-container > * {
+    flex:1;
+    margin: 10px;
+    padding: 50px;
+    background-color: lightgray;
+    border-radius: 10px;
+    min-width: 200px;
+}
+
+nav .flexbox-container * {
+    padding: 10px;
+}
