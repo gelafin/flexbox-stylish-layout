@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="assets/stylesheets/main.css">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
   <title>Flexbox Practice</title>
 </head>
 
-<body>
-  <nav>
-    <ul class="flexbox-container">
-      <li><a href="#">link 1</a></li>
-      <li><a href="#">link 2</a></li>
-      <li><a href="#">link 3</a></li>
-      <li><a href="#">link 4</a></li>
-    </ul>
-  </nav>
-    <header>
-      <h1>Title</h1>
-    </header>
-  <div class="flexbox-container">
-    <aside>
-      <p>advertisement!</p>    
-    </aside>  
+<body class="flexbox-container-row">
+  <header>
+    <h1>Title</h1>
+    <nav>
+      <ul class="flexbox-container-column">
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
+        <li><a href="#">link 4</a></li>
+      </ul>
+    </nav>
+  </header>
+  <aside>
+    <p>advertisement!</p>    
+  </aside>  
+  <div class="flexbox-container-column central-column">
     <main>
       <article>
         <h2>Lorem Ipsum</h2>
@@ -35,7 +35,7 @@
           vestibulum quis a nunc. Nullam eu tincidunt sapien. Morbi vitae maximus 
           ipsum. Proin posuere facilisis enim, ut semper metus congue at. Nunc eros
           eros, lacinia sit amet pellentesque eget, iaculis vitae velit.</p>
-
+          
         <p>felis mi, ornare eu vulputate non, congue ut nisl. Suspendisse gravida
           venenatis urna at congue. Nam lectus eros, tristique a condimentum quis, 
           molestie tincidunt enim. Phasellus pulvinar, ante nec porta volutpat, nibh 
@@ -43,13 +43,13 @@
           convallis fermentum. Cras vitae urna dapibus, congue erat non, dignissim 
           magna. Proin aliquet convallis massa. Proin purus urna, iaculis sed semper 
           faucibus, dignissim id dolor.</p>
-        
-        <p>dictum mi et elit laoreet volutpat. In gravida varius odio, vel euismod 
+          
+          <p>dictum mi et elit laoreet volutpat. In gravida varius odio, vel euismod 
           ligula tincidunt et. Vestibulum ante ipsum primis in faucibus orci luctus 
           et ultrices posuere cubilia Curae; Curabitur a mattis quam. Praesent 
           malesuada sapien quam, nec feugiat augue blandit eu. Donec eu odio diam. 
           Curabitur nec tempor risus.</p>
-        
+          
         <p>eget massa in lorem congue tempor eu sit amet enim. Pellentesque magna 
           odio, lacinia non accumsan non, egestas eget purus. Sed felis risus,
           suscipit eu ultrices vel, sollicitudin in lorem. Donec vitae sem felis. 
@@ -65,8 +65,9 @@
         </p>
       </article>
     </main>
-    <section>This is another section</section>
-    <footer><small>Copyright</small></footer>  
-  </div>
+    <footer>
+      <small>Copyright</small>
+    </footer>
+  </div> 
 </body>
 </html>
