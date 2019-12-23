@@ -66,13 +66,14 @@ p + p {
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 main > article {
     margin: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 846px) {
     aside {
         order: 1;
         background-color: pink;
@@ -97,9 +98,9 @@ CLASSES
 
 .flexbox-container-column > * {
     flex: 1;
-    margin: 10px;
-    background-color: lightblue;
+    background-color: white;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .flexbox-container-row {
@@ -110,15 +111,20 @@ CLASSES
 .flexbox-container-row > * {
     flex: 1;
     margin: 10px;
-    padding: 50px;
+    padding: 30px;
     background-color: lightgray;
     border-radius: 10px;
 }
 
-nav .flexbox-container * {
+nav .flexbox-container-column > * {
     padding: 10px;
 }
 
 .central-column {
     flex: 3;
+    min-width: 300px;
+}
+
+.central-column > * {
+    padding: 10px;
 }
