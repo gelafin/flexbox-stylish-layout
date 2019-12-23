@@ -1,1 +1,1 @@
-Goal is to practice flexbox and CSS selectors. That's why the CSS is so contrived in this one
+Goal is to practice flexbox and CSS selectors. That's why the CSS is so contrived in this one; I avoided making classes and IDs on purpose
