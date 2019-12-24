@@ -59,6 +59,15 @@ header {
     text-align: center;
 }
 
+body > header:first-of-type > * {
+    position: sticky;
+    top: 2em;
+}
+body > header:first-of-type > h1 {
+    position: sticky;
+    top: 0;
+}
+
 p + p {
     margin-top: 16px;
 }
@@ -92,6 +101,10 @@ main > article {
 aside img {
     max-width: 100%;
 }
+
+h1 {
+    font-size: 2em;
+    }    
 
 /*
 ========
